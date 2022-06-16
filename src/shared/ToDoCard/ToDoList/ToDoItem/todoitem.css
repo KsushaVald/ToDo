@@ -1,0 +1,45 @@
+.todoitem {
+  display: flex;
+  padding: 10px 0;
+}
+
+.todoitem:not(:first-child){
+  border-top: 1px solid var(--color-subtext);
+}
+
+.todoitemBtnDone {
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid var(--color-subtext);
+  background-color: var(--color-none);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.todoitemBtnNoDone {
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid var(--color-subtext);
+  background-color: var(--color-none);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.todoitemBtnNoDone svg {
+  display: none;
+}
+
+
+.todoitemNameDone {
+  font-size: 24px;
+  font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+  text-decoration: line-through;
+  color: var(--color-subtext);
+}
+
+.todoitemNameNoDone {
+  font-size: 24px;
+  font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+}

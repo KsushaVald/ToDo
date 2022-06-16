@@ -1,0 +1,11 @@
+.header {
+  font-size: 60px;
+  font-weight: 300;
+  color: var(--color-header);
+}
+
+.headerblock {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
